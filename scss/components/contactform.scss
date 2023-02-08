@@ -1,7 +1,7 @@
 .theme-contactForm {
-    margin-bottom: 7rem;
+    padding-top: 2rem;
     @include media("md") {
-        margin-bottom: 5rem;
+        padding-top: 0;
     }
     form {
         padding: 5rem 7rem;
@@ -9,6 +9,9 @@
         border-radius: var(--input-radius);
         @include media("md") {
             padding: 3rem 3rem 3rem;
+        }
+        @include media("sm") {
+            padding: 3rem 2rem 3rem;
         }
         input, .form__input {
             &:not([type="submit"]) {
@@ -20,7 +23,7 @@
                 border: 1px solid transparent;
                 margin-bottom: 30px;
                 border-radius: var(--input-radius);
-                @include media("md") {
+                @include media("xl") {
                     margin-bottom: 10px;
                 }
             }
@@ -31,7 +34,7 @@
         }
         textarea {
             @extend .form__input;
-            min-height: 150px;
+            min-height: 180px;
             resize: none;
         }
         input[type="submit"] {

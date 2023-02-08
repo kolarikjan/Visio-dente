@@ -4,11 +4,11 @@
     <!-- DEFAULTS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OFP Systems</title>
+    <title>VISIO-DENTE</title>
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- STYLE -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -29,6 +29,9 @@
                         incididunt ut labore.
                     </a>
                 </p>
+                <a href="" class="header-message-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z" fill="currentColor" /></svg>
+                </a>
             </div>
         </div>
     </div>
@@ -45,413 +48,303 @@
                 <div class="collapse navbar-collapse" id="nav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#">Úvod</a>
                         </li>
                         <li class="nav-item dropdown-hover">
-                            <a class="nav-link" href="#">O nás</a>
+                            <a class="nav-link" href="#">Služby</a>
                             <div class="dropdown-hover-menu">
                                 <div class="position-relative d-flex flex-column">
-                                    <a class="dropdown-hover-item" href="#">Připravované akce</a>
-                                    <a class="dropdown-hover-item" href="#">Informace a formuláře</a>
-                                    <a class="dropdown-hover-item" href="#">Rozvrhy a suplování</a>
-                                    <a class="dropdown-hover-item" href="#">Časopis</a>    
+                                    <a class="dropdown-hover-item" href="#">Záchovná stomatologie</a>
+                                    <a class="dropdown-hover-item" href="#">Ortodoncie</a>
+                                    <a class="dropdown-hover-item" href="#">Reendodoncie</a>
+                                    <a class="dropdown-hover-item" href="#">Bělení zubů</a>    
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Služby</a>
+                            <a class="nav-link" href="#">O nás</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Reference</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Aktuality</a>
+                            <a class="nav-link" href="#">Fotogalerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ceník</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Kontakt</a>
                         </li>
-                        <li class="nav-item header-contact d-lg-none">
-                            <a href="#">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 16H11V18H13V16Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4C5 2.89543 5.89543 2 7 2H17C18.1046 2 19 2.89543 19 4V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V4ZM7 4H17V20H7L7 4Z" fill="currentColor" /></svg>
-                                +420 123 456 789
-                            </a>
-                        </li>
                     </ul>
                 </div>
-                <div class="header-contact d-none d-lg-block">
-                    <a href="#">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 16H11V18H13V16Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 4C5 2.89543 5.89543 2 7 2H17C18.1046 2 19 2.89543 19 4V20C19 21.1046 18.1046 22 17 22H7C5.89543 22 5 21.1046 5 20V4ZM7 4H17V20H7L7 4Z" fill="currentColor" /></svg>
+                <div class="header-rightbox d-none d-lg-flex">
+                    <a href="tel:+420 123 456 789" class="header-rightbox-phone">
+                        <div class="header-rightbox-phone-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="21px"><path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M17.061,13.142 C16.507,12.569 15.608,12.569 15.053,13.142 L14.050,14.182 C13.497,14.755 12.599,14.756 12.044,14.183 C12.044,14.183 12.044,14.182 12.043,14.182 L6.022,7.947 C5.469,7.373 5.469,6.444 6.022,5.869 L7.026,4.829 C7.580,4.256 7.581,3.326 7.026,2.752 C7.026,2.752 7.026,2.752 7.026,2.751 L5.019,0.672 C4.465,0.099 3.567,0.099 3.013,0.671 C3.013,0.671 3.012,0.672 3.012,0.672 L0.503,3.272 C0.225,3.558 0.082,4.109 0.200,4.496 C1.241,7.903 3.461,11.528 6.022,14.182 C8.583,16.833 12.085,19.133 15.376,20.209 C15.750,20.332 16.282,20.184 16.560,19.897 L19.068,17.299 C19.623,16.725 19.623,15.795 19.068,15.221 L17.061,13.142 Z"/></svg>
+                        </div>
                         +420 123 456 789
                     </a>
+                    <div class="header-rightbox-order">
+                        <a href="#" class="button-custom button-custom-darkblue button-custom-icon w-100">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 13C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11C8.55228 11 9 11.4477 9 12C9 12.5523 8.55228 13 8 13Z" fill="currentColor" /><path d="M8 17C7.44772 17 7 16.5523 7 16C7 15.4477 7.44772 15 8 15C8.55228 15 9 15.4477 9 16C9 16.5523 8.55228 17 8 17Z" fill="currentColor" /><path d="M11 16C11 16.5523 11.4477 17 12 17C12.5523 17 13 16.5523 13 16C13 15.4477 12.5523 15 12 15C11.4477 15 11 15.4477 11 16Z" fill="currentColor" /><path d="M16 17C15.4477 17 15 16.5523 15 16C15 15.4477 15.4477 15 16 15C16.5523 15 17 15.4477 17 16C17 16.5523 16.5523 17 16 17Z" fill="currentColor" /><path d="M11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12Z" fill="currentColor" /><path d="M16 13C15.4477 13 15 12.5523 15 12C15 11.4477 15.4477 11 16 11C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13Z" fill="currentColor" /><path d="M8 7C7.44772 7 7 7.44772 7 8C7 8.55228 7.44772 9 8 9H16C16.5523 9 17 8.55228 17 8C17 7.44772 16.5523 7 16 7H8Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM18 5H6C5.44772 5 5 5.44772 5 6V18C5 18.5523 5.44772 19 6 19H18C18.5523 19 19 18.5523 19 18V6C19 5.44772 18.5523 5 18 5Z" fill="currentColor" /></svg>
+                            Objednejte se
+                        </a>
+                    </div>
                 </div>
             </nav>
         </div>
     </div>
 
-    <div class="banner-subpage">
+
+    <div class="subpage-banner">
         <div class="container">
-            <div class="banner-subpage-text">
-                <h1>Podstrana s výpisem novinek</h1>
-                <div class="breadcrumb">
+            <div class="subpage-banner-inner">
+                <div class="innerContainer">
+                    <div class="subpage-banner-text">
+                        <h1>Podstrana typografie</h1>
+                        <div class="subpage-banner-breadcrumb">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">Podstrana typografie</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="theme-subpage">
+        <div class="theme-contact theme-section">
+            <div class="container">
+                <div class="innerContainer">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="theme-contact-main">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 col-xl-7">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <div class="theme-contact-main-icon">
+                                                <span class="m-auto m-md-0">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="22px"><path fill-rule="evenodd" fill="rgb(201, 182, 166)" d="M15.935,2.720 C14.205,0.989 11.908,0.037 9.465,0.037 C7.023,0.037 4.725,0.989 2.997,2.720 C1.267,4.449 0.315,6.746 0.315,9.188 C0.315,11.631 1.267,13.928 2.983,15.644 L8.472,21.574 C8.730,21.844 9.092,21.1000 9.465,21.1000 C9.837,21.1000 10.198,21.846 10.456,21.577 L15.935,15.657 C17.664,13.928 18.616,11.631 18.616,9.188 C18.617,6.745 17.665,4.448 15.935,2.720 ZM14.627,14.377 L9.465,19.966 L4.291,14.364 C2.906,12.979 2.145,11.142 2.145,9.188 C2.145,7.234 2.906,5.397 4.291,4.013 C5.674,2.629 7.512,1.867 9.465,1.867 C11.419,1.867 13.256,2.629 14.641,4.013 C16.025,5.397 16.787,7.234 16.786,9.188 C16.786,11.142 16.024,12.979 14.627,14.377 ZM9.463,5.528 C8.486,5.528 7.566,5.908 6.875,6.600 C6.185,7.291 5.804,8.211 5.805,9.188 C5.805,11.206 7.446,12.849 9.465,12.849 C11.484,12.849 13.126,11.206 13.126,9.188 C13.126,7.170 11.484,5.528 9.463,5.528 ZM9.465,11.019 L9.463,11.019 C8.455,11.019 7.635,10.198 7.635,9.188 C7.635,8.698 7.824,8.239 8.170,7.894 C8.515,7.549 8.975,7.358 9.466,7.358 C10.475,7.358 11.295,8.179 11.295,9.188 C11.295,10.198 10.474,11.019 9.465,11.019 Z"></path></svg>
+                                                </span>
+                                            </div>
+                                            <div class="theme-contact-main-box">
+                                                <h3 class="theme-contact-main-title">
+                                                    Visiodente s.r.o.
+                                                </h3>
+                                                <div class="theme-section-output">
+                                                    <p>
+                                                        MDDr. Tomáš Beníček<br>
+                                                        MDDr. Michaela Urbanová<br>
+                                                        MDDr. Tomáš Prášek
+                                                    </p>
+                                                    <a href="#" class="theme-contact-main-phone">+420 736 530 160</a>
+                                                    <a href="#" class="theme-contact-main-email">info@visiodente.cz</a>
+                                                    <p>Hradební 1553, Uherské Hradiště</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 col-xl-5">
+                                        <div class="d-flex flex-column flex-md-row">
+                                            <div class="theme-contact-main-icon">
+                                                <span class="m-auto m-md-0">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="21px"><path fill-rule="evenodd" fill="rgb(201, 182, 166)" d="M14.024,10.652 L16.709,13.308 L15.314,14.727 L12.037,11.486 L12.037,5.053 L14.024,5.053 L14.024,10.652 ZM12.995,20.962 C10.434,20.962 8.001,19.990 6.143,18.223 C5.748,17.852 5.380,17.442 5.053,17.008 L6.637,15.804 C6.897,16.149 7.189,16.474 7.506,16.773 C8.996,18.189 10.944,18.968 12.995,18.968 C17.397,18.968 20.978,15.375 20.978,10.958 C20.978,6.542 17.397,2.950 12.995,2.950 C8.930,2.950 5.571,6.015 5.080,9.961 L7.111,9.961 L4.032,13.945 L0.952,9.961 L3.075,9.961 C3.575,4.913 7.833,0.956 12.995,0.956 C18.493,0.956 22.965,5.443 22.965,10.958 C22.965,16.474 18.493,20.962 12.995,20.962 Z"></path></svg>
+                                                </span>
+                                            </div>
+                                            <div class="theme-contact-main-box">
+                                                <h3 class="theme-contact-main-title">
+                                                    Otevírací doba
+                                                </h3>
+                                                <div class="theme-section-output">
+                                                    <p>Po:   10:00 - 17:00<br>
+                                                        Út:   08:00 - 16:00<br>
+                                                        St:   08:00 - 16:00<br>
+                                                        Čt:  08:00 - 16:00<br>
+                                                        Pá:  08:00 - 13:00<br>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="theme-contact-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.7244931544938!2d17.45602882159576!3d49.072871400234035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47131439575e7897%3A0xac7e166e9b824c1b!2zU2xvdsOhY2vDqSBkaXZhZGxv!5e0!3m2!1scs!2scz!4v1686742271346!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="theme-contactForm theme-section">
+            <div class="container">
+                <div class="innerContainer">
+                    <div class="theme-section-header">
+                        <div class="theme-section-output">
+                            <h2>Napište nám</h2>
+                        </div>
+                    </div>
+                    <div class="theme-section-content">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 col-xl-4">
+                                    <div class="section-form-box">
+                                        <input type="text" placeholder="Vaše jméno" class="section-form-input">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-4">
+                                    <div class="section-form-box">
+                                        <input type="text" placeholder="Váš email" class="section-form-input">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-4">
+                                    <div class="section-form-box">
+                                        <input type="text" placeholder="Váš telefon" class="section-form-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-form-box">
+                                        <textarea placeholder="S čím Vám můžeme pomoci ..." class="section-form-input"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-custom button-custom-darkblue mt-3 mt-md-4 me-auto ms-auto">
+                                Odeslat
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="innerContainer">
+                <div class="footer-main">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
+                            <div class="d-flex flex-column flex-md-row">
+                                <div class="footer-main-icon">
+                                    <span class="m-auto m-md-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="22px"><path fill-rule="evenodd"  fill="rgb(201, 182, 166)" d="M15.935,2.720 C14.205,0.989 11.908,0.037 9.465,0.037 C7.023,0.037 4.725,0.989 2.997,2.720 C1.267,4.449 0.315,6.746 0.315,9.188 C0.315,11.631 1.267,13.928 2.983,15.644 L8.472,21.574 C8.730,21.844 9.092,21.1000 9.465,21.1000 C9.837,21.1000 10.198,21.846 10.456,21.577 L15.935,15.657 C17.664,13.928 18.616,11.631 18.616,9.188 C18.617,6.745 17.665,4.448 15.935,2.720 ZM14.627,14.377 L9.465,19.966 L4.291,14.364 C2.906,12.979 2.145,11.142 2.145,9.188 C2.145,7.234 2.906,5.397 4.291,4.013 C5.674,2.629 7.512,1.867 9.465,1.867 C11.419,1.867 13.256,2.629 14.641,4.013 C16.025,5.397 16.787,7.234 16.786,9.188 C16.786,11.142 16.024,12.979 14.627,14.377 ZM9.463,5.528 C8.486,5.528 7.566,5.908 6.875,6.600 C6.185,7.291 5.804,8.211 5.805,9.188 C5.805,11.206 7.446,12.849 9.465,12.849 C11.484,12.849 13.126,11.206 13.126,9.188 C13.126,7.170 11.484,5.528 9.463,5.528 ZM9.465,11.019 L9.463,11.019 C8.455,11.019 7.635,10.198 7.635,9.188 C7.635,8.698 7.824,8.239 8.170,7.894 C8.515,7.549 8.975,7.358 9.466,7.358 C10.475,7.358 11.295,8.179 11.295,9.188 C11.295,10.198 10.474,11.019 9.465,11.019 Z"/></svg>
+                                    </span>
+                                </div>
+                                <div class="footer-main-box">
+                                    <h3 class="footer-main-title">
+                                        Kontaktujte nás
+                                    </h3>
+                                    <div class="theme-section-output">
+                                        <p>
+                                            <b>Beníček stomatologie s.r.o.</b><br>
+                                            MDDr. Tomáš Beníček<br>
+                                            MDDr. Michaela Urbanová
+                                        </p>
+                                        <a href="#" class="footer-main-phone">+420 736 530 160</a>
+                                        <a href="#" class="footer-main-email">info@benicek-stomatologie.cz</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-xl-4">
+                            <div class="d-flex flex-column flex-md-row">
+                                <div class="footer-main-icon">
+                                    <span class="m-auto m-md-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="21px"><path fill-rule="evenodd"  fill="rgb(201, 182, 166)" d="M14.024,10.652 L16.709,13.308 L15.314,14.727 L12.037,11.486 L12.037,5.053 L14.024,5.053 L14.024,10.652 ZM12.995,20.962 C10.434,20.962 8.001,19.990 6.143,18.223 C5.748,17.852 5.380,17.442 5.053,17.008 L6.637,15.804 C6.897,16.149 7.189,16.474 7.506,16.773 C8.996,18.189 10.944,18.968 12.995,18.968 C17.397,18.968 20.978,15.375 20.978,10.958 C20.978,6.542 17.397,2.950 12.995,2.950 C8.930,2.950 5.571,6.015 5.080,9.961 L7.111,9.961 L4.032,13.945 L0.952,9.961 L3.075,9.961 C3.575,4.913 7.833,0.956 12.995,0.956 C18.493,0.956 22.965,5.443 22.965,10.958 C22.965,16.474 18.493,20.962 12.995,20.962 Z"/></svg>
+                                    </span>
+                                </div>
+                                <div class="footer-main-box">
+                                    <h3 class="footer-main-title">
+                                        Otevírací doba
+                                    </h3>
+                                    <div class="theme-section-output">
+                                        <p>Po:   10:00 - 17:00<br>
+                                            Út:   08:00 - 16:00<br>
+                                            St:   08:00 - 16:00<br>
+                                            Čt:  08:00 - 16:00<br>
+                                            Pá:  08:00 - 13:00<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4">
+                            <div class="footer-socials">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z" fill="currentColor" /></svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z" fill="currentColor" /></svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z" fill="currentColor" /><path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" fill="currentColor" /></svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#">
+                                Úvod
+                            </a>
                         </li>
                         <li>
-                            <a href="#">Podstrana s výpisem novinek</a>
+                            <a href="#">
+                                Služby                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                O nás
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Reference
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Fotogalerie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Ceník
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Kontakt
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="news section">
-        <div class="container">
-            <div class="section-content news-content">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image1.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image2.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image3.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image1.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image2.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image3.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image1.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image2.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image3.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image1.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image2.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4">
-                        <div class="news-box">
-                            <a href="#" class="news-header">
-                                <img src="img/section-news-image3.png" alt="news" class="img-fluid news-img">
-                            </a>
-                            <div class="news-body">
-                                <a href="#" class="news-title">Lorem ipsum dolor sit</a>
-                                <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                <span class="news-date">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 17C16.1046 17 17 16.1046 17 15C17 13.8954 16.1046 13 15 13C13.8954 13 13 13.8954 13 15C13 16.1046 13.8954 17 15 17Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM5 18V7H19V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18Z" fill="currentColor" /></svg>
-                                    2/6/2023
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pagination">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="9px">
-                                <path fill-rule="evenodd"  fill="rgb(45, 179, 243)" d="M0.201,5.067 L3.628,8.489 C3.911,8.771 4.370,8.771 4.652,8.489 C4.935,8.206 4.935,7.749 4.652,7.467 L2.448,5.267 L20.965,5.267 C21.365,5.267 21.689,4.942 21.689,4.543 C21.689,4.144 21.365,3.821 20.965,3.821 L2.448,3.821 L4.652,1.620 C4.935,1.338 4.935,0.880 4.652,0.597 C4.511,0.456 4.326,0.386 4.140,0.386 C3.955,0.386 3.770,0.456 3.628,0.597 L0.201,4.019 C0.056,4.164 -0.014,4.354 -0.011,4.543 C-0.014,4.733 0.056,4.923 0.201,5.067 Z"/>
-                            </svg>
-                            předchozí
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="active">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">6</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            další
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="9px">
-                                <path fill-rule="evenodd"  fill="rgb(45, 179, 243)" d="M21.487,3.995 L18.059,0.574 C17.777,0.291 17.318,0.292 17.035,0.574 C16.753,0.856 16.753,1.314 17.035,1.595 L19.239,3.796 L0.722,3.796 C0.322,3.796 -0.002,4.120 -0.002,4.519 C-0.002,4.919 0.322,5.242 0.722,5.242 L19.239,5.242 L17.035,7.443 C16.753,7.725 16.753,8.183 17.035,8.465 C17.177,8.606 17.362,8.677 17.547,8.677 C17.733,8.677 17.918,8.606 18.059,8.465 L21.487,5.043 C21.631,4.899 21.702,4.709 21.698,4.519 C21.702,4.330 21.631,4.140 21.487,3.995 Z"/>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="position-relative">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-extended">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 col-xl-4">
-                                <div class="footer-icons">
-                                    <div class="footer-icons-box">
-                                        <div class="footer-icons-image">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="23px">
-                                                <path fill-rule="evenodd"  fill="rgb(52, 52, 52)" d="M14.483,17.329 L8.383,11.230 L9.739,9.875 L15.838,15.974 L14.483,17.329 ZM22.561,14.659 L20.717,14.133 C20.960,13.281 21.083,12.395 21.083,11.500 C21.083,6.216 16.784,1.917 11.500,1.917 C6.216,1.917 1.917,6.216 1.917,11.500 C1.917,16.785 6.216,21.083 11.500,21.083 C12.410,21.083 13.302,20.947 14.160,20.700 C12.036,19.984 10.228,18.496 9.062,17.329 L8.384,16.651 C4.392,12.660 3.510,8.459 5.986,5.539 L5.964,5.517 L6.349,5.131 C6.349,5.131 6.349,5.131 6.349,5.131 L6.350,5.130 C7.101,4.384 8.316,4.386 9.060,5.130 L11.772,7.842 C12.519,8.589 12.519,9.806 11.772,10.553 L11.095,11.230 L9.740,9.875 L10.417,9.197 L7.705,6.486 C4.561,9.631 8.468,14.024 9.740,15.296 L10.417,15.974 C11.942,17.499 13.599,18.571 15.082,18.992 C16.735,19.460 18.090,19.141 19.221,18.011 L19.226,18.007 L16.515,15.296 L15.838,15.973 L14.483,14.617 L15.160,13.940 C15.909,13.195 17.124,13.195 17.870,13.940 L20.581,16.652 C20.943,17.012 21.142,17.494 21.143,18.006 C21.143,18.518 20.944,19.001 20.581,19.363 L20.166,19.777 L20.147,19.760 C19.456,20.341 18.689,20.731 17.866,20.938 L17.931,21.036 C16.029,22.320 13.805,23.000 11.500,23.000 C5.159,23.000 -0.000,17.841 -0.000,11.500 C-0.000,5.159 5.159,-0.000 11.500,-0.000 C17.841,-0.000 22.1000,5.159 22.1000,11.500 C22.1000,12.573 22.852,13.635 22.561,14.659 Z"/>
-                                            </svg>
-                                        </div>
-                                        <div class="footer-icons-content">
-                                            <span class="footer-icons-title">
-                                                Zavolejte nám
-                                            </span>
-                                            <div class="footer-icons-text">
-                                                <p>+420 123-456-789</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="footer-icons-box">
-                                        <div class="footer-icons-image">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="23px">
-                                                <path fill-rule="evenodd"  fill="rgb(52, 52, 52)" d="M8.416,21.534 L7.686,22.413 L6.957,21.534 C6.245,20.676 0.000,13.036 0.000,8.937 C0.000,4.549 3.448,0.979 7.686,0.979 C11.924,0.979 15.372,4.549 15.372,8.937 C15.372,13.036 9.127,20.676 8.416,21.534 ZM7.686,2.971 C4.508,2.971 1.923,5.647 1.923,8.937 C1.923,11.461 5.590,16.659 7.686,19.330 C9.783,16.658 13.449,11.459 13.449,8.937 C13.449,5.647 10.864,2.971 7.686,2.971 ZM3.823,8.908 C3.823,6.713 5.547,4.926 7.668,4.926 C9.789,4.926 11.514,6.713 11.514,8.908 C11.514,11.104 9.789,12.890 7.668,12.890 C5.547,12.890 3.823,11.104 3.823,8.908 ZM9.591,8.908 C9.591,7.810 8.728,6.917 7.668,6.917 C6.608,6.917 5.745,7.810 5.745,8.908 C5.745,10.007 6.608,10.899 7.668,10.899 C8.728,10.899 9.591,10.007 9.591,8.908 Z"/>
-                                            </svg>
-                                        </div>
-                                        <div class="footer-icons-content">
-                                            <span class="footer-icons-title">
-                                                Kde nás najdete
-                                            </span>
-                                            <div class="footer-icons-text">
-                                                <p>Rival Floor, s.r.o.</p>
-                                                <p>Tovární 2013, 686 03 Staré Město</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="footer-icons-box">
-                                        <div class="footer-icons-image">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22px" height="23px">
-                                                <path fill-rule="evenodd"  fill="rgb(52, 52, 52)" d="M10.912,22.417 C11.940,22.417 12.986,22.270 14.018,21.959 C15.453,21.529 16.756,20.824 17.892,19.863 L16.626,18.364 C15.697,19.151 14.630,19.728 13.456,20.080 C8.774,21.485 3.820,18.820 2.415,14.135 C1.735,11.866 1.978,9.467 3.101,7.381 C4.223,5.295 6.090,3.771 8.357,3.090 C10.625,2.407 13.023,2.651 15.108,3.775 C17.193,4.898 18.717,6.766 19.396,9.035 C19.687,10.004 19.785,11.997 19.785,11.997 L19.785,13.927 C19.785,14.612 19.227,15.170 18.542,15.170 C17.857,15.170 17.300,14.612 17.300,13.927 L17.284,11.883 C17.302,11.364 17.265,10.838 17.150,10.309 C16.519,7.399 13.903,5.287 10.931,5.287 C10.477,5.287 10.022,5.336 9.576,5.434 C7.914,5.794 6.491,6.781 5.570,8.211 C4.649,9.643 4.341,11.347 4.701,13.009 C5.332,15.920 7.948,18.032 10.921,18.032 C11.373,18.032 11.829,17.983 12.275,17.886 C13.745,17.567 14.982,16.760 15.863,15.673 C16.436,16.549 17.421,17.131 18.542,17.131 C20.309,17.131 21.746,15.694 21.746,13.927 L21.746,11.883 C21.746,11.883 21.609,9.587 21.275,8.471 C20.444,5.701 18.584,3.420 16.037,2.047 C13.491,0.677 10.562,0.379 7.794,1.211 C5.025,2.043 2.745,3.904 1.374,6.452 C0.003,8.999 -0.294,11.928 0.537,14.699 C1.943,19.385 6.256,22.417 10.912,22.417 ZM11.860,15.969 C11.551,16.037 11.235,16.070 10.921,16.070 C8.864,16.070 7.054,14.608 6.618,12.594 C6.368,11.443 6.581,10.264 7.219,9.273 C7.856,8.283 8.841,7.600 9.991,7.350 C10.301,7.283 10.617,7.249 10.931,7.249 C12.988,7.249 14.797,8.710 15.233,10.724 C15.749,13.101 14.236,15.454 11.860,15.969 Z"/>
-                                            </svg>
-                                        </div>
-                                        <div class="footer-icons-content">
-                                            <span class="footer-icons-title">
-                                                Napište nám
-                                            </span>
-                                            <div class="footer-icons-text">
-                                                <a href="#">rival@rivalfloor.cz</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 col-xl-4">
-                                <div class="footer-about">
-                                    <h3>Rivalfloor</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Ratione volupLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                </div>
-                                <div class="footer-socials">
-                                    <a href="#">
-                                        <img src="img/icon-youtube-white.png" alt="youtube">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon-linkedin-white.png" alt="linkedin">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon-facebook-white.png" alt="facebook">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon-instagram-white.png" alt="instagram">
-                                    </a>
-                                    <a href="#">
-                                        <img src="img/icon-twitter-white.png" alt="twitter">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-12 col-xl-4">
-                                <div class="footer-menu ps-xl-5">
-                                    <h3>Menu</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                Home 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                O nás 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Služby 
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Reference  
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Kontakt 
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="copyright">
-                            <p>COPYRIGHT © 2023 RIVALFLOOR.cz  |  TVORBA WWW STRÁNEK <a href="https://machin.cz/" target="_blank">MACHIN.CZ</a></p>
-                        </div>
-                    </div>
+                <div class="footer-copyright">
+                    <p>COPYRIGHT © 2023 VISIO-DENTE.cz  |  TVORBA WWW STRÁNEK <a href="https://machin.cz/" target="_blank">MACHIN.CZ</a></p>
                 </div>
             </div>
         </div>

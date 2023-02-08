@@ -1,4 +1,10 @@
 .theme {
+    &-subpage {
+        padding-bottom: 3rem;
+        @include media("md") {
+            padding-bottom: 1rem;
+        }
+    }
     &-section {
         padding: 6rem 0;
         @include media("md") {
@@ -15,7 +21,7 @@
                 font-size: 70px;
                 line-height: 70px;
                 font-weight: 500;
-                margin-bottom: 3.5rem;
+                margin-bottom: 0;
                 @include media("md") {
                     font-size: 55px;
                     line-height: 55px;
@@ -27,7 +33,9 @@
                     }
                 }
             }
+            margin-bottom: 3.5rem;
             @include media("md") {
+                margin-bottom: 2.75rem;
                 text-align: center;
             }
         }
@@ -35,6 +43,16 @@
             padding: 1rem 0;
         }
         &-output {
+            @include media("md") {
+                *:not(li):not(ul):not(ol) {
+                    text-align: center;
+                }
+                ul,ol {
+                    margin-left: auto;
+                    margin-right: auto;
+                    @include widthFit();
+                }
+            }
             & > *:first-child {
                 margin-top: 0;
             }
@@ -83,17 +101,37 @@
                     }
                 }
             }
+            h1 {
+                font-size: 58px;
+                margin: 4rem 0 3rem;
+                @include media("md") {
+                    font-size: 52px;
+                    margin: 3.5rem 0 2.5rem;
+                }
+            }
             h2 {
                 font-size: 52px;
-                margin: 4rem 0 3rem;
+                margin: 3.5rem 0 2.5rem;
+                @include media("md") {
+                    font-size: 42px;
+                    margin: 3rem 0 2rem;
+                }
             }
             h3 {
                 font-size: 36px;
-                margin: 3.5rem 0 2.5rem;
+                margin: 3rem 0 2rem;
+                @include media("md") {
+                    font-size: 30px;
+                    margin: 2.5rem 0 1.75rem;
+                }
             }
             h4 {
                 font-size: 28px;
                 margin: 3rem 0 2rem;
+                @include media("md") {
+                    font-size: 26px;
+                    margin: 2.5rem 0 1.75rem;
+                }
             }
             a {
                 color: var(--highlight-color);
