@@ -1,1 +1,0 @@
-soubor s css variables - css/variables.css
