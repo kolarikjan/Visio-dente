@@ -57,7 +57,7 @@ $(document).ready(function () {
         
     });
 
-    $('.banner-homepage').owlCarousel({
+    $('.homepage-banner-owl').owlCarousel({
         items:1,
         loop:true,
         rewind:true,
