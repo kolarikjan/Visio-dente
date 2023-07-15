@@ -5,6 +5,15 @@
 
 // Components
 @import "components/header.scss";
+@import "components/buttons.scss";
+@import "components/banners.scss";
+@import "components/sections.scss";
+@import "components/weoffer.scss";
+@import "components/equipment.scss";
+@import "components/services.scss";
+@import "components/gallery.scss";
+@import "components/footer.scss";
+@import "components/contactform.scss";
 
 // Style 
 @media (min-width: map-get($breaks, "xxl")) {
@@ -13,9 +22,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .container-split-left {
-        max-width: 775px;
-        margin-left: auto;
-        margin-right: 0;
+}
+@media (min-width: map-get($breaks, "xxxl")) {
+    .container {
+        max-width: 1680px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
