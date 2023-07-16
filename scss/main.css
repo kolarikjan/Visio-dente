@@ -14,7 +14,7 @@
   --section-preTitle-color: #575656;
   --services-boxes-color: #f1f8fd;
   --news-date-color: #ababab;
-  --border-color: #f6f9fc;
+  --border-color: #e8f2fc;
   --news-border-color: #eaecf0;
   --highlight-light-color: #e1f3ff;
   --socials-icon-color: #343434;
@@ -1001,32 +1001,32 @@ input, textarea {
 }
 .theme-section-output h1 {
   font-size: 58px;
-  margin: 4.5rem 0 3.5rem;
+  margin: 4rem 0 3rem;
 }
 @media (max-width: 768px) {
   .theme-section-output h1 {
     font-size: 52px;
-    margin: 4rem 0 3rem;
+    margin: 3.5rem 0 2.5rem;
   }
 }
 .theme-section-output h2 {
   font-size: 52px;
-  margin: 4rem 0 3rem;
+  margin: 3.5rem 0 2.5rem;
 }
 @media (max-width: 768px) {
   .theme-section-output h2 {
     font-size: 42px;
-    margin: 3.5rem 0 2.5rem;
+    margin: 3rem 0 2rem;
   }
 }
 .theme-section-output h3 {
   font-size: 36px;
-  margin: 3.5rem 0 2.5rem;
+  margin: 3rem 0 2rem;
 }
 @media (max-width: 768px) {
   .theme-section-output h3 {
     font-size: 30px;
-    margin: 3rem 0 2rem;
+    margin: 2.5rem 0 1.75rem;
   }
 }
 .theme-section-output h4 {
@@ -1036,7 +1036,7 @@ input, textarea {
 @media (max-width: 768px) {
   .theme-section-output h4 {
     font-size: 26px;
-    margin: 3rem 0 2rem;
+    margin: 2.5rem 0 1.75rem;
   }
 }
 .theme-section-output a {
