@@ -1,4 +1,4 @@
-.button-white {
+.section-subpage-main .button-white {
     @include flexCenter();
     border-radius: var(--button-radius);
     border: 2px solid var(--secondary-color);
@@ -25,19 +25,16 @@
         box-shadow: inset 10em 0 0 0 var(--secondary-color);
     }
 }
-.button-highlighted {
+.section-subpage-main .button-highlighted {
     @include flexCenter();
     border-radius: var(--button-radius);
     border: 2px solid var(--button-color);
     color: var(--secondary-color);
     background-color: var(--button-color);
-    font-size: 12px;
-    letter-spacing: .1rem;
-    padding: .8rem 2.25rem;
-    text-align: center;
-    transition: 0.25s;
-    text-transform: uppercase;
+    font-size: 16px;
     font-weight: 500;
+    transition: 0.25s;
+    padding: 0.7rem 1.5rem;
     @include widthFit();
     svg {
         margin-left: 1rem;

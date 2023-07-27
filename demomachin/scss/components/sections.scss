@@ -1,4 +1,4 @@
-.section {
+.section-subpage-main .section {
     padding: 2rem 0 2rem;
     @include media("md") {
         padding: 0 0 0;
@@ -14,11 +14,15 @@
         }
     }
     &-preTitle {
-        font-size: 17px;
+        background-color: var(--section-preTitle-background-color);
+        color: var(--section-preTitle-color);
         text-transform: uppercase;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
+        font-size: 13px;
+        border-radius: 5px;
+        padding: .3rem .95rem;
         @include widthFit();
+        margin-bottom: 1rem;
+        font-weight: 600;
         @include media("md") {
             margin: 0 auto .75rem;
         }
@@ -176,7 +180,6 @@
             }
         }
         &-gallery {
-            padding-top: 1rem;
             margin-bottom: -1.4rem;
             .owl-stage-outer {
                 border-radius: var(--border-radius);
@@ -374,7 +377,7 @@
             &-name {
                 p {
                     color: var(--primary-color);
-                    font-size: 18px;
+                    font-size: 17px;
                     line-height: 33px;
                     margin-bottom: 0;
                 }
@@ -505,6 +508,9 @@
                     @include flexCenter();
                     svg {
                         transition-duration: 0.1s;
+                        path {
+                            fill: var(--highlight-color);
+                        }
                     }
                 }
             }
@@ -579,6 +585,12 @@
         }
         &-team {
             margin-bottom: -1.4rem;
+            @media (max-width: 1600px) and (min-width: 1200px) {
+                & > .row > div {
+                    flex: 0 0 auto;
+                    width: 33.33333333%;
+                }
+            }
             &-image {
                 width: 155px;
                 height: 155px;
@@ -622,13 +634,13 @@
             &-body {
                 text-align: center;
                 h4 {
-                    font-size: 24px;
+                    font-size: 30px;
                     font-weight: 700;
                     margin-bottom: 0.25rem;
                 }
                 p {
-                    font-size: 16px;
-                    line-height: 28px;
+                    font-size: 17px;
+                    line-height: 30px;
                     margin-bottom: 0;
                 }
             }
@@ -666,6 +678,11 @@
                 margin-bottom: -0.88rem;
             }
             &-carousel {
+                &-noM {
+                    .owl-stage {
+                        margin: 0 !important;
+                    }
+                }
                 .owl-stage {
                     margin: 0 auto;
                     display: flex;

@@ -60,9 +60,9 @@ $(document).ready(function () {
 
     $('.section-block-textimage').owlCarousel({
         items:1,
-        loop:true,
+        loop:false,
         rewind:true,
-        navText:["<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
+        navText:["<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
         margin:1,
         nav:false,
         dots:true
@@ -72,7 +72,7 @@ $(document).ready(function () {
         items:1,
         loop:false,
         rewind:true,
-        navText:["<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
+        navText:["<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
         margin:24,
         nav:true,
         dots:false,
@@ -96,7 +96,7 @@ $(document).ready(function () {
         items:1,
         loop:false,
         rewind:true,
-        navText:["<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
+        navText:["<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
         margin:24,
         nav:true,
         dots:false,
@@ -115,9 +115,9 @@ $(document).ready(function () {
 
     $('.section-block-gallery').owlCarousel({
         items:1,
-        loop:true,
+        loop:false,
         rewind:true,
-        navText:["<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='demomachin/img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
+        navText:["<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-prev'>","<img src='www/web/demomachin//img/arrow-dropdown-black.png' alt='slider arrow' class='section-block-textimage-next'>"],
         margin:24,
         nav:true,
         dots:false,

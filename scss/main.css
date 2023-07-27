@@ -1,42 +1,3 @@
-:root {
-  --table-color: #f6f9fc;
-  --table-header-color: #e8f2fc;
-  --primary-color: #000;
-  --secondary-color: #ffffff;
-  --paragraph-color: #000;
-  --menu-color: #000;
-  --highlight-color: #55caf5;
-  --button-color: #103683;
-  --background-color: #ffffff;
-  --background-secondary-color: #e8f2fc;
-  --section-preTitle-background-color: #f4f4f4;
-  --section2-preTitle-background2-color: #ffffff;
-  --section-preTitle-color: #575656;
-  --services-boxes-color: #f1f8fd;
-  --news-date-color: #ababab;
-  --border-color: #e8f2fc;
-  --news-border-color: #eaecf0;
-  --highlight-light-color: #e1f3ff;
-  --socials-icon-color: #343434;
-  --footer-icon-color: #808080;
-  --footer-color: #c9b6a6;
-  --copyright-color: #a2a2a2;
-  --border-radius: 10px;
-  --numbers-number-color: #55caf5;
-  --link-color: #55caf5;
-  --numbers-number-background: #fff;
-  --font: "Poppins", sans-serif;
-  --font2: "Barlow Condensed", sans-serif;
-  --button-radius: 25px;
-  --border-radius: 20px;
-  --input-radius: 5px;
-  --gallery-radius: 10px;
-  --popup-radius: 15px;
-  --section-light-color: #f3f8fd;
-  --line-color-light: #ffffff38;
-  --header-background: url("../img/section-breadcrumb-image.png");
-}
-
 * {
   font-family: var(--font);
   box-sizing: border-box;
@@ -78,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li {
-  color: var(--paragraph-color);
+  color: var(--primary-color);
   font-size: 16px;
   line-height: 30px;
 }
@@ -247,8 +208,11 @@ input, textarea {
   }
 }
 @media (max-width: 991px) {
-  .header #nav .navbar-nav > .nav-item {
+  .header #nav .navbar-nav {
     border-top: 1px solid var(--border-color);
+  }
+  .header #nav .navbar-nav > .nav-item {
+    border-bottom: 1px solid var(--border-color);
   }
   .header #nav .navbar-nav .dropdown-hover > a {
     display: flex;
@@ -418,6 +382,13 @@ input, textarea {
   padding: 0.4rem 1.5rem 0.4rem 0.4rem;
   transition: 0.15s;
 }
+@media (max-width: 991px) {
+  .header-rightbox-phone {
+    width: 220px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
 .header-rightbox-phone-icon {
   display: flex;
   justify-content: center;
@@ -440,6 +411,11 @@ input, textarea {
   font-size: 16px;
   font-weight: 500;
   padding: 0.87rem 1.75rem;
+}
+@media (max-width: 991px) {
+  .header-rightbox-order .button-custom {
+    width: 220px;
+  }
 }
 .header .navbar-toggler {
   padding-right: 0;
@@ -828,9 +804,12 @@ input, textarea {
   padding: 0;
   display: flex;
 }
+.subpage-banner-breadcrumb ul li {
+  display: flex;
+}
 .subpage-banner-breadcrumb ul li:not(:last-child)::after {
   content: "/";
-  margin: 0 0.5rem 0 0.25rem;
+  margin: 0 0.5rem;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1156,11 +1135,16 @@ input, textarea {
 }
 @media (max-width: 1200px) {
   .theme-weoffer-images > img:nth-child(1) {
-    width: 360px;
+    width: 305px;
     height: 365px;
   }
 }
 @media (max-width: 768px) {
+  .theme-weoffer-images > img:nth-child(1) {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
   .theme-weoffer-images > img:nth-child(1) {
     width: 90%;
   }
@@ -1178,6 +1162,11 @@ input, textarea {
   }
 }
 @media (max-width: 768px) {
+  .theme-weoffer-images > img:nth-child(2) {
+    width: 80%;
+  }
+}
+@media (max-width: 576px) {
   .theme-weoffer-images > img:nth-child(2) {
     width: 90%;
   }
@@ -1202,8 +1191,22 @@ input, textarea {
   height: 300px;
   bottom: 2.25rem;
 }
+@media (max-width: 1800px) {
+  .theme-weoffer-images::before {
+    left: 4rem;
+    width: calc(100% - 4rem);
+  }
+}
+@media (max-width: 1400px) {
+  .theme-weoffer-images::before {
+    left: 2rem;
+    width: calc(100% - 2rem);
+  }
+}
 @media (max-width: 1200px) {
   .theme-weoffer-images::before {
+    left: 3rem;
+    width: calc(100% - 3rem);
     height: 200px;
   }
 }
@@ -1430,7 +1433,10 @@ input, textarea {
   margin-bottom: 1.5rem;
 }
 .theme-services-icon img, .theme-services-icon svg {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
   max-height: 68px;
+  max-width: 68px;
 }
 @media (max-width: 768px) {
   .theme-services-icon {
@@ -1842,4 +1848,33 @@ input, textarea {
     padding-left: 15px;
     padding-right: 15px;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */hone {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: .5rem;
+  letter-spacing: -0.05rem;
+  display: block;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .theme-contact-main-phone {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1601px) {
+  .container {
+    max-width: 1540px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1680px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -1,4 +1,4 @@
-.news {
+.section-subpage-main .news {
     background-color: var(--background-color);
     &-content {
         margin-bottom: -2.8rem;
@@ -73,29 +73,21 @@
         }
     }
     &-description {
-        font-size: 17px;
-        color: var(--paragraph-color);
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 32px;
         font-weight: 400;
+        color: var(--paragraph-color);
     }
     &-title {
-        font-size: 22px;
+        font-size: 20px;
         color: var(--primary-color);
-        line-height: 30px;
+        line-height: 28px;
         font-weight: 700;
         transition: 0.15s;
         margin-bottom: 1rem;
         display: block;
         &:hover {
             text-decoration: none;
-        }
-    }
-    @include min-media("xxl") {
-        .row {
-            margin: 0 -25px;
-        }
-        .row > div {
-            padding: 0 25px;
         }
     }
     @include media("md") {

@@ -1,4 +1,4 @@
-.services {
+.section-subpage-main .services {
     margin-bottom: -1.4rem;
     padding-bottom: 3rem !important;
     &-box {
@@ -26,8 +26,7 @@
             max-height: 68px;
         }
         &-title {
-            font-size: 28px;
-            font-family: var(--font2);
+            font-size: 25px;
             color: var(--primary-color);
             font-weight: 600;
             display: block;
