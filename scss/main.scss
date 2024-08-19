@@ -17,6 +17,9 @@
 @import "components/contact.scss";
 
 // Style 
+html {
+    scroll-behavior: smooth;
+  }
 @media (min-width: map-get($breaks, "xxl")) {
     .container {
         max-width: 1540px;
@@ -29,5 +32,28 @@
         max-width: 1680px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+.section-subpage {
+    table {
+        border: 0;
+        tbody {
+            tr:first-child {
+                td {
+                    padding: 1.25rem 2.5rem;
+                    font-size: 17px;
+                    color: var(--secondary-color) !important;
+                    font-weight: 500;
+                    @media (max-width: map-get($breaks, "md")) {
+                        padding: 1.25rem 1rem;
+                    }
+                }
+            }
+        }
+        @media (max-width: map-get($breaks, "md")) {
+            td {
+                padding: .75rem 1rem !important;
+            }
+        }
     }
 }

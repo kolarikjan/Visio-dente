@@ -113,17 +113,6 @@
         @include media("md") {
             text-align: center;
         }
-        tbody {
-            tr:first-child {
-                background-color: var(--table-header-color) !important;
-                th {
-                    padding: 1.25rem 1.5rem;
-                    font-size: 17px;
-                    color: var(--secondary-color);
-                    font-weight: 500;
-                }
-            }
-        }
         tr {
             td {
                 padding: 1rem 1.5rem;
@@ -135,6 +124,17 @@
             }
             &:not(:last-child) td {
                 border-bottom: 0 !important;
+            }
+        }
+        tbody {
+            tr:first-child {
+                background-color: var(--table-header-color) !important;
+                td {
+                    padding: 1.25rem 1.5rem;
+                    font-size: 17px;
+                    color: var(--secondary-color) !important;
+                    font-weight: 500;
+                }
             }
         }
     }

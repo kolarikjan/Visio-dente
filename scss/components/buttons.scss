@@ -2,14 +2,18 @@
     @include flexCenter();
     @include widthFit();
     font-size: 12px;
+    line-height: 25px;
     letter-spacing: .1rem;
     padding: .8rem 2.25rem;
     text-align: center;
     border: 2px solid;
-    transition: 0.25s;
+    transition: 0.35s;
     text-transform: uppercase;
     font-weight: 500;
     border-radius: var(--button-radius);
+    svg, path{
+        transition: 0.35s;
+    }
     &:hover {
         text-decoration: none;
     }
@@ -24,6 +28,23 @@
         box-shadow: inset 15rem 0 0 0 var(--secondary-color);
         svg, path {
             fill: var(--button-color) !important;
+        }
+    }
+}
+.button-custom-black {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+    svg, path {
+        fill: var(--secondary-color) !important;
+    }
+    &:hover {
+        background-color: var(--section-light-color);
+        border-color: var(--section-light-color);
+        color: var(--highlight-color);
+        box-shadow: inset 15rem 0 0 0 var(--section-light-color);
+        svg, path {
+            fill: var(--highlight-color) !important;
         }
     }
 }

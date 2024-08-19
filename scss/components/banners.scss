@@ -76,6 +76,9 @@
                 margin: 0 !important;
                 border-radius: 50% !important;
                 transition: 0.15s all;
+                svg, path {
+                    fill: var(--highlight-color);
+                }
                 &.owl-next {
                     transform: rotate(180deg);
                 }
@@ -83,7 +86,7 @@
                     margin-right: .25rem !important;
                 }
                 &:hover {
-                    border-color: var(--button-color) !important;
+                    border-color: var(--highlight-color) !important;
                 }
             }
         }
@@ -221,6 +224,12 @@
                     display: block;
                 }
             }
+        }
+        .button-custom {
+            line-height: 13px;
+        }
+        svg {
+            fill: var(--highlight-color);
         }
     }
 }
