@@ -1,0 +1,58 @@
+.theme-contactForm-2 {
+    position: relative;
+    height: 540px;
+
+    @include media("lg") {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .title-form {
+        position: absolute;
+        left: 30px;
+        top: -55px;
+    }
+
+
+    form {
+        height: 100%;
+        padding: 2.5rem;
+        background-color: var(--background-secondary-color);
+        border-radius: 20px;
+
+        @include media("md") {
+            padding: 3rem 3rem 3rem;
+        }
+        @include media("sm") {
+            padding: 3rem 2rem 3rem;
+        }
+        input, .form__input {
+            &:not([type="submit"]) {
+                padding: 1rem 1.5rem;
+                color: #000;
+                font-size: 15px;
+                width: 100%;
+                font-weight: 600;
+                border: 1px solid transparent;
+                border-radius: var(--input-radius);
+                margin-bottom: 15px;
+            }
+            &::placeholder {
+                color: #000;
+                font-weight: 600;
+            }
+        }
+        textarea {
+            @extend .form__input;
+            min-height: 140px;
+            resize: none;
+            margin-bottom: 40px !important;
+        }
+        input[type="submit"] {
+            margin: 30px auto 0;
+            @include media("md") {
+                margin: 15px auto 0;
+            }
+        }
+    }
+}

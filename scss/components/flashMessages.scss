@@ -1,0 +1,24 @@
+.flash-message > div{
+    position: absolute;
+    padding: 20px;
+    background-color: var(--background-secondary-color);;
+    border-radius: 20px;
+    display: inline-block;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    border: 2px solid var(--highlight-color);
+    z-index: 99;
+    @include media("xl") {
+        top: 305px;
+    }
+    @include media("lg") {
+        top: 100px;
+    }
+    @include media("sm") {
+        width: 95%;
+    }
+}

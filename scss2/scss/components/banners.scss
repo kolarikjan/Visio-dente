@@ -1,16 +1,5 @@
-@keyframes opacity {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 .homepage-banner {
     position: relative;
-    animation: opacity;
-    animation-timing-function: ease-in-out;
-    animation-duration: 1.5s;
     @include media("md") {
         text-align: center;
     }
@@ -107,20 +96,19 @@
         &-image {
             max-width: 65%;
             margin-left: auto;
-            margin-bottom: 2rem;
             @include media("lg") {
                 max-width: 100%;
-                margin: 0 3rem 7rem;
+                margin: 0 3rem;
             }
             @include media("md") {
-                margin: 0 2rem 5.75rem;
+                margin: 0 2rem;
             }
             @include media("sm") {
-                margin: 0 1.5rem 5.75rem;
+                margin: 0 1.5rem;
             }
             img {
                 border-radius: var(--border-radius);
-                margin-bottom: 0;
+                margin-bottom: 2rem;
                 height: 700px;
                 width: 1070px !important;
                 object-fit: cover;
@@ -137,6 +125,10 @@
                 @include media("lg") {
                     width: 100% !important;
                     height: 300px;
+                    margin-bottom: 7rem;
+                }
+                @include media("md") {
+                    margin-bottom: 5.75rem;
                 }
             }
         }
@@ -147,7 +139,6 @@
             right: 0;
             bottom: 0;
             transform: translate(0,-50%);
-            z-index: 3;
             @include media("xxl") {
                 top: 42.5%;
             }
