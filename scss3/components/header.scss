@@ -40,6 +40,7 @@
             transform: translateY(-50%);
             right: 2rem;
             border: 1px solid var(--border-color);
+            filter: brightness(.75);
             padding: .25rem;
             border-radius: 50%;
             transition-duration: 0.15s;
@@ -49,6 +50,7 @@
             }
             &:hover {
                 border-color: var(--highlight-color);
+                filter: none;
                 svg, path {
                     fill: var(--highlight-color);
                 }

@@ -1,0 +1,14 @@
+.flash-message > div {
+  position: absolute;
+  padding: 30px 15px;
+  background-color: var(--background-secondary-color);
+  border-radius: 20px;
+  display: inline-block;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 99;
+}
